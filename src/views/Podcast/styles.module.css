@@ -1,0 +1,40 @@
+.container {
+  display: flex;
+  min-height: 100vh;
+  height: 100%;
+  align-items: center;
+}
+
+.column {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  align-items: center;
+  justify-content: center;
+}
+
+.home {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+}
+
+.icon {
+  width: 80px;
+}
+
+.text {
+  width: 65%;
+  text-align: left;
+}
+
+/* Large breakpoint */
+@media (max-width: 992px) {
+  .text {
+    width: 100%;
+  }
+}

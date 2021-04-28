@@ -1,0 +1,57 @@
+.container {
+  display: flex;
+  min-height: 100vh;
+  height: 100%;
+  align-items: center;
+}
+
+.column {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  align-items: center;
+  justify-content: center;
+}
+
+.home {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  z-index: 1;
+}
+
+.icon {
+  width: 80px;
+}
+
+.text {
+  width: 65%;
+  text-align: left;
+}
+
+.list {
+  width: 65%;
+  text-align: left;
+  margin-left: 50px;
+}
+
+.image {
+  width: 70%;
+}
+
+/* Large breakpoint */
+@media (max-width: 992px) {
+  .text {
+    width: 100%;
+  }
+  .list {
+    width: 100%;
+  }
+  .image {
+    width: 100%;
+  }
+}
